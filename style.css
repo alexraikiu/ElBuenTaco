@@ -220,6 +220,9 @@ body {
 #Promos {
     background-color: black;
     color: white;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 #Promos h3 {
