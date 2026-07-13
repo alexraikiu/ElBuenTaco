@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0;
     padding: 0;
@@ -11,13 +12,13 @@ body {
 
 #Barraprincipal {
     display: flex;
-    justify-content: space-around;
-    gap: 300px;
+    justify-content: space-between;
     align-items: center;
-    padding: 0.1px 5px;
+    padding: 10px 20px;
     background-color: black;
     width: 100%;
 }
+
 
 #whatsapp {
     display: flex;
@@ -223,9 +224,9 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 #Promos h3 {
@@ -250,4 +251,19 @@ body {
     display: block;
     margin: 0 auto;
     border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+    #Barraprincipal {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    #Secciones {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
