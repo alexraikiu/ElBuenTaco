@@ -221,12 +221,20 @@ body {
 #Promos {
     background-color: black;
     color: white;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    max-width: 100%;
-    height: auto;
-    display: block;
+    padding: 40px 20px;
+}
+
+.item-promo {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.item-promo img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 #Promos h3 {
